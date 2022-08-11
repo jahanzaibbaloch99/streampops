@@ -1,14 +1,15 @@
 import React from "react";
 
-import { View, Text } from "react-native";
+import { View, Text, SafeAreaView } from "react-native";
 import Navigation from "./src/Navigations/NavigationStack";
 
 
 const App = () => {
   return (
-    <View style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1,}}>
+
       <Navigation />
-    </View>
+    </SafeAreaView>
   )
 };
 
